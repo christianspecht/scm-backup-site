@@ -26,3 +26,6 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
+
+# production environment
+environment: prod
