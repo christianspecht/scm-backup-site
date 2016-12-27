@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<article>
+  <div class="blog_post">
+    <header>
+      <div id="{{ page.id }}"></div>
+      <p><small><span class="blog_post_date">{{ page.date | date: "%b %d %Y, %H:%M:%S" }}</span> | tags: 
+        <span class="blog_post_categories">{% for tag in page.tags %}{{ tag }} {% endfor %}</span> | <span class="blog_post_permalink"><a href="{{ site.url }}{{ page.url }}">permalink</a></span>
+      </small></p>
+    </header>
+    <div class="post_prose">
+      {{ content }}
+    </div>
+  </div>
+</article>
+
