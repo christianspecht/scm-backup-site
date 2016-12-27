@@ -4,4 +4,4 @@ title: About SCM Backup
 permalink: /
 ---
 
-home
+{{ site.description }}
