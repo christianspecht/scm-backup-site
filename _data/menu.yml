@@ -7,7 +7,7 @@
 - name: Docs
   linkurl: /docs/
   icon: glyphicon-file
-- name: Downloads
+- name: "Source code/Downloads"
   linkurl: /downloads/
   icon: glyphicon-cloud-download
 
