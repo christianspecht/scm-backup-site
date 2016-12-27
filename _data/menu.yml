@@ -1,0 +1,15 @@
+- name: About
+  linkurl: /
+  icon: glyphicon-info-sign
+- name: News
+  linkurl: /news/
+  icon: glyphicon-globe
+- name: Docs
+  linkurl: /docs/
+  icon: glyphicon-file
+- name: Downloads
+  linkurl: /downloads/
+  icon: glyphicon-cloud-download
+
+
+
