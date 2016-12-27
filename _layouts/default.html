@@ -45,6 +45,16 @@
 
 </div><!-- /.container -->
 
+<hr>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"><small>Copyright 2016-{{ site.time | date: "%Y" }} <a href="{{ site.authorlink }}">{{ site.authorname }}</a></small></div>
+            <div class="col-md-6"><small><a href="/imprint/">Imprint</a></small></div>
+        </div><!-- /.row -->
+    </div><!-- /.container -->
+</footer>
 
 <script src="{% if site.environment == 'prod' %}//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js{% else %}/js/jquery.min.js{% endif %}"></script>
 <script src="{% if site.environment == 'prod' %}//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js{% else %}/js/bootstrap.min.js{% endif %}" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
