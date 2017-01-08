@@ -26,3 +26,7 @@ markdown: kramdown
 
 # production environment
 environment: prod
+
+# plugins
+gems:
+  - jekyll-sitemap
