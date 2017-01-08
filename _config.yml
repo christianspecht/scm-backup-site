@@ -23,6 +23,7 @@ authorlink: https://christianspecht.de/
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 # production environment
 environment: prod
