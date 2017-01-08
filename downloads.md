@@ -15,6 +15,4 @@ Each push to `master` triggers a new build on [AppVeyor](https://appveyor.com/),
 
 [Download latest release version](https://ci.appveyor.com/project/ChristianSpecht/scm-backup/build/artifacts)
 
-### This site
 
-This site is built with [Jekyll](https://jekyllrb.com/) and hosted on [GitHub Pages](https://pages.github.com/). The source code [is here on GitHub](https://github.com/christianspecht/scm-backup-site/).

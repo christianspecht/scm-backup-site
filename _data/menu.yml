@@ -10,6 +10,9 @@
 - name: "Source code/Downloads"
   linkurl: /downloads/
   icon: glyphicon-cloud-download
+- name: Project Info
+  linkurl: /info/
+  icon: glyphicon-info-sign
 
 
 
