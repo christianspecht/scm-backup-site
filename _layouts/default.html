@@ -79,7 +79,16 @@
 <script src="{% if site.environment == 'prod' %}//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js{% else %}/js/jquery.min.js{% endif %}"></script>
 <script src="{% if site.environment == 'prod' %}//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js{% else %}/js/bootstrap.min.js{% endif %}" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 {% if site.environment == 'prod' %}
-    <!-- TODO: Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89270507-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 {% endif %}
 </body>
 </html>
