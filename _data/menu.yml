@@ -1,6 +1,6 @@
 - name: About
   linkurl: /
-  icon: glyphicon-info-sign
+  icon: glyphicon-home
 - name: News
   linkurl: /news/
   icon: glyphicon-globe

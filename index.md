@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About SCM Backup
+title: SCM Backup
 permalink: /
 ---
 
