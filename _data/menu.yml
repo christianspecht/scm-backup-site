@@ -1,15 +1,15 @@
 - name: About
   linkurl: /
   icon: glyphicon-home
-- name: News
-  linkurl: /news/
-  icon: glyphicon-globe
+- name: "Downloads/Source code"
+  linkurl: /downloads/
+  icon: glyphicon-cloud-download
 - name: Docs
   linkurl: /docs/
   icon: glyphicon-file
-- name: "Source code/Downloads"
-  linkurl: /downloads/
-  icon: glyphicon-cloud-download
+- name: News
+  linkurl: /news/
+  icon: glyphicon-globe
 - name: Project Info
   linkurl: /info/
   icon: glyphicon-info-sign
