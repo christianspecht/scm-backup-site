@@ -59,6 +59,7 @@
 </nav>
 
 <div class="container">
+{% if site.infobar %}<div class="alert alert-warning" role="alert">{{ site.infobar }}</div>{% endif %}
 <h1>{{ page.title }}</h1>
 {{ content }}
 
