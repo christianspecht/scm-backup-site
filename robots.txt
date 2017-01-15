@@ -6,3 +6,4 @@ permalink: /robots.txt
 User-agent: *
 Disallow: /imprint/
 Sitemap: {{ site.url }}/sitemap.xml
+Host: {{ site.url }}
