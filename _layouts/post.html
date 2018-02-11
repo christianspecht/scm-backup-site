@@ -16,3 +16,5 @@ layout: default
   </div>
 </article>
 
+{% if page.previous %}<div class="pull-left"><small><a href="{{ site.baseurl }}{{ page.previous.url }}">&larr;&nbsp;previous post</a></small></div>{% endif %}
+{% if page.next %}<div class="pull-right"><small><a href="{{ site.baseurl }}{{ page.next.url }}">next post&nbsp;&rarr;</a></small></div>{% endif %}
