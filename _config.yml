@@ -17,7 +17,7 @@ title: SCM Backup
 description: "SCM Backup is a tool which makes offline backups of your cloud hosted source code repositories, by cloning them. It supports backing up from multiple source code hosters and backing up multiple users/teams per source code hoster."
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://scm-backup.org" # the base hostname & protocol for your site
+url: "https://scm-backup.org" # the base hostname & protocol for your site
 authorname: Christian Specht
 authorlink: https://christianspecht.de/
 
