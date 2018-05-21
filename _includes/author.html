@@ -1,1 +1,1 @@
-{% for author in site.data.authors %}{% if author.name == include.name %}<a href="{{ author.url }}"><img src="http://www.gravatar.com/avatar/{{ author.gravatar }}?s=32" class="img-rounded"> {{ author.fullname }}</a>{% endif %}{% endfor %}
+{% for author in site.data.authors %}{% if author.name == include.name %}<a href="{{ author.url }}"><img src="{{ author.avatar }}" class="img-rounded"> {{ author.fullname }}</a>{% endif %}{% endfor %}
