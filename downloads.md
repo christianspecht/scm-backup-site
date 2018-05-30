@@ -22,10 +22,5 @@ Each push to `master` triggers a new build on [AppVeyor](https://appveyor.com/).
 Non-release builds [can be viewed here](https://ci.appveyor.com/project/ChristianSpecht/scm-backup/history).  
 You can [download the latest build here](https://ci.appveyor.com/project/ChristianSpecht/scm-backup/build/artifacts).
 
-
-
-
-
-
-
+Note that AppVeyor deletes artifacts older than three months *(as stated in their [Artifacts retention policy](https://www.appveyor.com/blog/2018/05/24/artifacts-retention-policy/))*, so all non-release builds will be kept for three months only.
 
