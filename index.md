@@ -8,6 +8,8 @@ permalink: /
 
 {{ site.description }}
 
+It's free and open source!
+
 At the moment, the following hosters are supported:
 
 - [GitHub](https://github.com)
