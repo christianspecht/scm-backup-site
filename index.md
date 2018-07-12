@@ -8,6 +8,12 @@ permalink: /
 
 {{ site.description }}
 
+At the moment, the following hosters are supported:
+
+- [GitHub](https://github.com)
+- [Bitbucket](https://bitbucket.org)
+
+
 ## News
 
 {% for post in site.posts limit: 5 %}
