@@ -7,6 +7,9 @@
 - name: Docs
   linkurl: /docs/
   icon: glyphicon-file
+- name: Support
+  linkurl: /support/
+  icon: glyphicon-user
 - name: News
   linkurl: /news/
   icon: glyphicon-globe
