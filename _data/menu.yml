@@ -13,6 +13,9 @@
 - name: News
   linkurl: /news/
   icon: glyphicon-globe
+- name: Contribute
+  linkurl: /contribute/
+  icon: glyphicon-wrench
 - name: Project Info
   linkurl: /info/
   icon: glyphicon-info-sign
