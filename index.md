@@ -12,8 +12,9 @@ It's free and open source!
 
 At the moment, the following hosters are supported:
 
-- [GitHub](https://github.com)
 - [Bitbucket](https://bitbucket.org)
+- [GitHub](https://github.com)
+- [GitLab](https://gitlab.com)
 
 
 ## News
