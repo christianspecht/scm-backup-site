@@ -19,7 +19,7 @@ The source code of SCM Backup is [on GitHub](https://github.com/christianspecht/
 
 ### Non-release versions
 
-Each push to `master` triggers a new build on [AppVeyor](https://appveyor.com/).
+Each push *(to any branch)* triggers a new build on [AppVeyor](https://appveyor.com/).
 
 Non-release builds [can be viewed here](https://ci.appveyor.com/project/ChristianSpecht/scm-backup/history).  
 You can [download the latest build here](https://ci.appveyor.com/project/ChristianSpecht/scm-backup/build/artifacts).
