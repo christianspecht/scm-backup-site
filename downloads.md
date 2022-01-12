@@ -4,7 +4,7 @@ title: Downloads
 permalink: /downloads/
 ---
 
-Please read [the docs](https://docs.scm-backup.org/en/latest/install) before installing.
+Please read [the docs](https://docs.scm-backup.org/en/latest/install.html) before installing.
 
 <a href="https://github.com/christianspecht/scm-backup/releases/latest" class="btn btn-primary">Download latest release version</a>
 
