@@ -73,7 +73,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-6"><small>© Copyright 2016-{{ site.time | date: "%Y" }} <a href="{{ site.authorlink }}">{{ site.authorname }}</a>. Revision {{ site.github.build_revision | slice: 0, 8 }}.</small></div>
+            <div class="col-md-6"><small>© Copyright 2016-{{ site.time | date: "%Y" }} <a href="{{ site.authorlink }}">{{ site.authorname }}</a>. Revision <a href="https://github.com/christianspecht/scm-backup-site/commit/{{ site.github.build_revision }}">{{ site.github.build_revision | slice: 0, 8 }}</a></small></div>
             <div class="col-md-6"><small><a href="/imprint/">Imprint / Impressum</a> | <a href="/privacy/">Privacy Policy / Datenschutzerklärung</a></small></div>
         </div><!-- /.row -->
     </div><!-- /.container -->
